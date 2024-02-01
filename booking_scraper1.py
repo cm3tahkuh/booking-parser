@@ -19,7 +19,7 @@ def main():
 
             for hotel in hotels:
                 hotel_dict = {}
-                hotel_dict['hotel'] = hotel.locator('//div[@data-testid="title"]').inner_text()
+                hotel_dict = hotel.locator('//div[@data-testid="title"]').inner_text()
                 hotels_list.append(hotel_dict)
 
             next_button = page.locator('button[aria-label="Next page"]')
