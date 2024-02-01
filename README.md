@@ -1,4 +1,4 @@
-# Booking.com Scraper
+# Booking.com Parser
 
 This is simple scraper that uses Playwright to extract data from Booking.com
 
@@ -17,5 +17,4 @@ check both Excel & CSV files (hotels_list) to see how final data will look like.
 ## to Run:
 - `python3 booking_scraper.py` 
 
-## Important 
-- Set `checkin_date` and  `checkout_date` in the future. 
+
