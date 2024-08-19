@@ -9,12 +9,13 @@ This scrapit is easy to customize.
 check both Excel & CSV files (hotels_list) to see how final data will look like. 
 
 ## To Install:
-- (Optional: create & activate a virtual environment) `virtualenv venv`, then `source venv/bin/activate`
+- (Optional: create & activate a virtual environment) `python3 -m venv myenv`, then `myenv\Scripts\activate`
 
 - `pip install -r requirements.txt`
 - `playwright install chromium`
+- `pip install pandas`
 
 ## to Run:
-- `python3 booking_scraper.py` 
+- `python booking_scraper.py` 
 
 
