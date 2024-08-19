@@ -12,9 +12,10 @@ check both Excel & CSV files (hotels_list) to see how final data will look like.
 - (Optional: create & activate a virtual environment) `python -m venv myenv`, then `myenv\Scripts\activate`
 
 - `pip install -r requirements.txt`
-- `pip install chromium`
+- `pip install playwright`
 - `playwright install chromium`
 - `pip install pandas`
+- `pip install openpyxl`
 
 ## to Run:
 - `При каждом запуске cmd из проводника в первую очередь нужно писать` `myenv\Scripts\activate``
