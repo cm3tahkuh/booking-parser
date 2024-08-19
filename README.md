@@ -17,7 +17,7 @@ check both Excel & CSV files (hotels_list) to see how final data will look like.
 - `pip install pandas`
 
 ## to Run:
-- `При каждом запуске писать` `myenv\Scripts\activate``
+- `При каждом запуске cmd из проводника в первую очередь нужно писать` `myenv\Scripts\activate``
 - `python booking_scraper.py` 
 
 
