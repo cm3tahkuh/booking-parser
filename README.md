@@ -18,6 +18,7 @@ check both Excel & CSV files (hotels_list) to see how final data will look like.
 
 ## to Run:
 - `При каждом запуске cmd из проводника в первую очередь нужно писать` `myenv\Scripts\activate``
+- Язык на сайте ставим English(US) - обязательно
 - Сначала парсим отели - `python booking_scraper.py`
 - Ищем emails - `python booking_finder_email.py` 
 
